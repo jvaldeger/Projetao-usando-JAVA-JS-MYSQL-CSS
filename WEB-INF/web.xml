@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Deposito - Web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+    <description></description>
+    <display-name>ControleFuncionarioServletAction</display-name>
+    <servlet-name>ControleFuncionarioServletAction</servlet-name>
+    <servlet-class>controle.ControleFuncionarioServletAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControleFuncionarioServletAction</servlet-name>
+    <url-pattern>/ControleFuncionarioServletAction</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>ControleCargoServletAction</display-name>
+    <servlet-name>ControleCargoServletAction</servlet-name>
+    <servlet-class>controle.ControleCargoServletAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControleCargoServletAction</servlet-name>
+    <url-pattern>/ControleCargoServletAction</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>ControleDepartamentoServletAction</display-name>
+    <servlet-name>ControleDepartamentoServletAction</servlet-name>
+    <servlet-class>controle.ControleDepartamentoServletAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControleDepartamentoServletAction</servlet-name>
+    <url-pattern>/ControleDepartamentoServletAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>ControleDepositoServletAction</display-name>
+    <servlet-name>ControleDepositoServletAction</servlet-name>
+    <servlet-class>controle.ControleDepositoServletAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControleDepositoServletAction</servlet-name>
+    <url-pattern>/ControleDepositoServletAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>ControleProdutoServletAction</display-name>
+    <servlet-name>ControleProdutoServletAction</servlet-name>
+    <servlet-class>controle.ControleProdutoServletAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControleProdutoServletAction</servlet-name>
+    <url-pattern>/ControleProdutoServletAction</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>ControleFornecedorServletAction</display-name>
+    <servlet-name>ControleFornecedorServletAction</servlet-name>
+    <servlet-class>controle.ControleFornecedorServletAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControleFornecedorServletAction</servlet-name>
+    <url-pattern>/ControleFornecedorServletAction</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
