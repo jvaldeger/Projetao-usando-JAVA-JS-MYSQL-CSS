@@ -1,5 +1,5 @@
 ﻿--
--- Banco de dados: `empresabiancovilli`
+-- Banco de dados: `empresajoao`
 --
 CREATE DATABASE IF NOT EXISTS bdempresa;
 USE bdempresa;
